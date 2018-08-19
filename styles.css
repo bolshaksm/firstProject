@@ -2331,22 +2331,25 @@ main {
   background-color: #d0e3fc;
   height: 100vh;
 }
-#fish {
+/* #fish {
   width: 3vh;
   height: 3vh;
   border-radius: 50%;
   background-color: #ffff00;
-}
+  position: absolute;
+} */
 #predator {
   width: 5vh;
   height: 5vh;
+  border: 1px solid black;
   border-radius: 50%;
   background-color: #00ff00;
+  position: relative;
 }
 @media (min-width: 768px) {
     .wall, footer {
       display: block;
-      background-color: orange; 
+      background-color: gray; 
       height: 10vh;
     }
     .wall__aside {
@@ -2361,4 +2364,4 @@ main {
     footer {
       background-color: #927352;
     }
-    }
+}
